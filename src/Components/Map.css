@@ -1,0 +1,56 @@
+.DateTo{
+  color: beige;
+  margin: 5px 45px 0px 10px;
+}
+
+
+.weather-container{
+  border: 5px solid rgb(210, 124, 19);
+  border-radius: 25px;
+  background-color: linear-gradient(rgb(20, 41, 177), rgb(203, 185, 188),  rgb(146, 37, 37));
+  font-weight: 700;
+  color: rgb(55, 12, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(8, 33, 123);
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.weather-condition{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(11, 9, 126);
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+.location{
+  font-size: 25px;
+  font: 1em sans-serif;
+  font-weight: 700;
+  color: rgb(11, 9, 126);
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+
+}
+
+.icon{
+  /* transform: translateY(-7px); */
+  color: #6424b4;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 10px 10px 0px 10px;
+}
