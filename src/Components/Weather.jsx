@@ -9,7 +9,7 @@ const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
   const API_KEY = '57619389d16854e87499498666de5847';
 
-  console.log(Location)
+  // console.log(Location)
 
   const weatherQuotes = [
     "Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather. - John Ruskin",

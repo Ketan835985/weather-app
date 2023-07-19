@@ -12,10 +12,6 @@ export default function InputLoc() {
         )
     }
     // let p = `/weather/${Location}`
-    const handelSubmit = (e) => {
-        e.preventDefault();
-        console.log(Location)
-    }
     return (
         <>
             <h1><em>Welcome</em></h1>
@@ -32,7 +28,7 @@ export default function InputLoc() {
                 />
 
                 <Link to={`/weather/${Location}`}>
-                    <button className="input__button__shadow input__button__shadow--variant" type='submit' onChange={handelSubmit}>
+                    <button className="input__button__shadow input__button__shadow--variant" type='submit' >
                         <svg
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"

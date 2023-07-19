@@ -1,8 +1,9 @@
 .input__container--variant {
   background: linear-gradient(to bottom, #f3fff9, #f3fff9);
   border-radius: 30px;
-  max-width: 13em;
+  max-width: 10em;
   padding: 1em 1em;
+  margin : 5px;
 }
 
 .shadow__input--variant {
